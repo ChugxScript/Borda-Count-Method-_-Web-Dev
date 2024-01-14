@@ -1,6 +1,13 @@
 <h1>BORDA COUNT METHOD</h1>
 <h2>STATIC WEBPAGE</h2>
 <h3>HTML, CSS, JAVASCRIPT</h3>
+
+<h4>DISCLAIMER</h4>
+<ul>
+  <li>Works on 1 device or user only. It needs backend to fully test or implement the Borda Count Method.</li>
+  <li>We will use Django for backend in the future development. This is just an outline of the website.</li>
+</ul>
+<br>
 <h4>How to use:</h4>
 
 1. Clone Repository: >https://github.com/ChugxScript/Borda-Count-Method-_-Web-Dev.git
@@ -17,10 +24,5 @@
    ![image](https://github.com/ChugxScript/Borda-Count-Method-_-Web-Dev/assets/101156843/b6bab9b1-3f23-4d6a-a66b-a41f4f018725)
 
 <br>
-<h4>DISCLAIMER</h4>
-<ul>
-  <li>Works on 1 device or user only. It needs backend to fully test or implement the Borda Count Method.</li>
-  <li>We will use Django for backend in the future development. This is just an outline of the website.</li>
-</ul>
-<br>
+
 <h3>THIS PART IS FOR THE BORDA COUNT CALCULATOR (kung ilalagay nyo. pero ilagay nyo naren)</h3>
