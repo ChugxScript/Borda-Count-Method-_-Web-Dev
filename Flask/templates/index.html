@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Borda Count Voting System</title>
+</head>
+<body>
+    <div id="app">
+        <h1>Borda Count Voting System</h1>
+        
+        <div id="candidates">
+            <!-- Candidates will be dynamically loaded here -->
+        </div>
+        <input type="text" id="newCandidate" placeholder="Enter Candidate Name">
+        <button id="addCandidateBtn" onclick="addCandidate()">Add Candidate</button>
+        <button id="startVoteBtn" onclick="startVoting()" disabled>Start Vote</button>
+        <button id="submitVoteID" onclick="submitVote()" disabled>Submit Vote</button>
+        <div id="results">
+            <!-- Results will be displayed here -->
+        </div>
+        <button id="voteAgainID" onclick="voteAgain()">Vote Again</button>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
