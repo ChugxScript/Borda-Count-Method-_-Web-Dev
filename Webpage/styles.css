@@ -29,6 +29,25 @@ body {
     animation: fadeIn 1s ease-in-out;
 }
 
+.rounded-search {
+    border-radius: 15px 0 0 15px; /* Adjust the radius to your preference */
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.search-bar button {
+    border-radius: 0 15px 15px 0; /* Adjust the radius to your preference */
+}
+
+.restaurant-name {
+    font-weight: bold;
+    /* Add any other styles for the restaurant name text here */
+}
+
+.highlighted {
+    background-color: yellow; /* or any other highlighting style */
+}
+
 .restaurant-logo {
     width: 100px;
     height: 100px;
