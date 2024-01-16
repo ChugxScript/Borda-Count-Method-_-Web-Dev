@@ -5,6 +5,7 @@ body {
     background-color: #f8f9fa;
 }
 
+/* header */
 .transparent-header {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 10px 0;
@@ -19,11 +20,35 @@ body {
     animation: fadeIn 1s ease-in-out;
 }
 
+/* First layer */
 .first-layer-content {
     padding: 20px 0;
     animation: fadeIn 1s ease-in-out;
 }
 
+.Website-description {
+    background-color: #e9ecef;
+    height: 550px;
+    background-size: cover;
+    align-items: center;
+    background-image: url('https://cdn.discordapp.com/attachments/1155849215927406703/1196735252190744597/first_layer.png?ex=65b8b58e&is=65a6408e&hm=5241421cee2ca8b7f75b69aa1b7039e1bb4c0ac8454e4e3428de35c4d15f8028&'); 
+    background-size: cover;
+    background-position: center;
+}
+
+.Website-description h2 {
+    margin-top: 290px; /* Adjust the top margin as needed */
+    margin-left: 20px; /* Adjust the left margin as needed */
+    margin-right: 20px; /* Adjust the right margin as needed */
+}
+
+.Website-description p {
+    margin-bottom: 20px; /* Adjust the bottom margin as needed */
+    margin-left: 20px; /* Adjust the left margin as needed */
+    margin-right: 20px; /* Adjust the right margin as needed */
+}
+
+/* Second layer */
 .search-bar {
     margin-top: 20px;
     animation: fadeIn 1s ease-in-out;
@@ -44,10 +69,6 @@ body {
     /* Add any other styles for the restaurant name text here */
 }
 
-.highlighted {
-    background-color: yellow; /* or any other highlighting style */
-}
-
 .restaurant-logo {
     width: 100px;
     height: 100px;
@@ -62,6 +83,7 @@ body {
     transform: scale(1.1);
 }
 
+/* third layer */
 .about-us {
     background-color: #343a40;
     color: white;
@@ -102,6 +124,7 @@ body {
     margin-right: 200px; /* Adjust the value to move it to the right */
 }
 
+/* footer */
 .footer {
     background-color: #212529;
     color: white;
@@ -109,6 +132,7 @@ body {
     animation: fadeIn 1s ease-in-out;
 }
 
+/* animation*/
 .fadeIn {
     opacity: 0;
     transform: translateY(20px);
@@ -120,39 +144,10 @@ body {
     transform: translateY(0);
 }
 
-/* Add styling for your new layer */
-.Website-desciption {
-    background-color: #e9ecef;
+.highlighted {
+    background-color: yellow; /* or any other highlighting style */
 }
 
-/* ... Previous styles ... */
-
-.layer-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.description-container {
-    flex: 1;
-    padding: 20px;
-    text-align: left;
-    animation: fadeIn 1s ease-in-out;
-    margin-left: 100px;
-}
-
-.image-container {
-    flex: 1;
-    padding: 20px;
-    text-align: center;
-    animation: fadeIn 1s ease-in-out;
-    margin-right: 20px;
-}
-
-.image-container img {
-    max-width: 800px;
-    height: auto;
-}
 
 /* ... Other styles ... */
 
@@ -167,3 +162,160 @@ body {
     }
 }
 
+/* mobile small screen 320px */
+@media (min-width: 320px) {
+    /* First layer */
+    .Website-description {
+        height: 400px;
+    }
+    .Website-description h2 {
+        margin-top: 160px; 
+        margin-left: 10px; 
+        margin-right: 100px; 
+    }
+    .Website-description p {
+        margin-bottom: 20px; 
+        margin-left: 10px; 
+        margin-right: 100px; 
+    }
+
+
+    /* Second layer */
+    .search-bar {
+        max-width: 320px;
+    }
+    .rounded-search {
+        padding: 5px;
+    }
+    .search-bar button {
+        padding: 5px;
+    }
+}
+
+/* mobile medium screen 375px */
+@media (min-width: 375px) {
+    /* First layer */
+    .Website-description {
+        height: 500px;
+    }
+    .Website-description h2 {
+        margin-top: 250px; 
+        margin-left: 10px; 
+        margin-right: 100px; 
+    }
+    .Website-description p {
+        margin-bottom: 20px; 
+        margin-left: 10px; 
+        margin-right: 100px; 
+    }
+
+    /* Second layer */
+    .search-bar {
+        min-width: 375px;
+    }
+    .rounded-search {
+        padding: 10px;
+    }
+    .search-bar button {
+        padding: 10px;
+    }
+}
+
+/* mobile large screen 425px */
+@media (min-width: 425px) {
+    /* First layer */
+    .Website-description h2 {
+        margin-top: 250px; 
+        margin-left: 10px; 
+        margin-right: 100px; 
+    }
+    .Website-description p {
+        margin-bottom: 20px; 
+        margin-left: 10px; 
+        margin-right: 100px; 
+    }
+
+    /* Second layer */
+    .search-bar {
+        max-width: 425px;
+    }
+    .rounded-search {
+        padding: 15px;
+        width: 250px;
+    }
+    .search-bar button {
+        padding: 15px;
+    }
+}
+
+/* tablet screen 768px */
+@media (min-width: 768px) {
+    /* Second layer */
+    .search-bar {
+        max-width: 768px;
+    }
+    .rounded-search {
+        padding: 15px 15px;
+        width: 400px;
+    }
+}
+
+/* laptop screen 1024px */
+@media (min-width: 1024px) {
+    /* Second layer */
+    .search-bar {
+        max-width: 1024px;
+    }
+    .rounded-search {
+        padding: 15px 15px;
+        width: 400px;
+    }
+}
+
+/* laptop large screen 1440px */
+@media (min-width: 1440px) {
+    /* First layer */
+    .Website-description h2 {
+        margin-top: 290px; 
+        margin-left: 100px; 
+        margin-right: 20px; 
+    }
+    .Website-description p {
+        margin-bottom: 20px; 
+        margin-left: 100px; 
+        margin-right: 20px; 
+    }
+
+    /* Second layer */
+    .search-bar {
+        max-width: 1440px;
+    }
+    .rounded-search {
+        padding: 15px 15px;
+        width: 400px;
+    }
+}
+
+/* 4k screen 2560px */
+@media (min-width: 2560px) {
+    /* First layer */
+    .Website-description h2 {
+        margin-top: 290px; 
+        margin-left: 100px; 
+        margin-right: 20px; 
+    }
+    .Website-description p {
+        margin-bottom: 20px; 
+        margin-left: 100px; 
+        margin-right: 20px; 
+    }
+
+    /* Second layer */
+    .search-bar {
+        max-width: 1440px;
+    }
+    .rounded-search {
+        padding: 15px 15px;
+        width: 400px;
+    }
+}
