@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-im-fell-dw-pica: "IM FELL DW Pica";
+  --font-iceberg: Iceberg;
+  --font-gaegu: Gaegu;
+  --font-inter: Inter;
+  --font-gochi-hand: "Gochi Hand";
+
+  /* font sizes */
+  --font-size-13xl: 32px;
+  --font-size-29xl: 48px;
+  --font-size-45xl: 64px;
+
+  /* Colors */
+  --color-black: #000;
+  --color-white: #fff;
+  --color-red: #e90000;
+
+  /* Paddings */
+  --padding-3xs: 10px;
+
+  /* Border radiuses */
+  --br-xl: 20px;
+  --br-3xs: 10px;
+}
