@@ -1,0 +1,466 @@
+.main-banner-child {
+  width: 1920px;
+  height: 691px;
+  object-fit: cover;
+}
+.main-banner-child,
+.try-our-best-seller {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.delicious {
+  margin: 0;
+}
+.delicious-chicken-inasal-container {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  font-size: 100px;
+  line-height: 65%;
+  font-family: var(--font-abhaya-libre-extrabold);
+  text-align: left;
+}
+.try-our-best-seller-parent {
+  position: absolute;
+  top: 235.5px;
+  left: 1115.5px;
+  width: 633px;
+  height: 180px;
+}
+.frame-child,
+.frame-item {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--second-color);
+  width: 18px;
+  height: 18px;
+}
+.frame-item {
+  width: 13px;
+  height: 13px;
+}
+.ellipse-parent {
+  position: absolute;
+  top: 654.1px;
+  left: 933px;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  height: 22.1px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.group-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-90xl);
+  background-color: var(--color-dimgray-100);
+  box-shadow: 0 9px 33px 3px rgba(0, 0, 0, 0.19);
+  width: 42px;
+  height: 42px;
+}
+.vector-icon {
+  position: absolute;
+  top: 11px;
+  left: 12px;
+  width: 18px;
+  height: 20px;
+  object-fit: contain;
+}
+.main-banner-inner,
+.rectangle-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 42px;
+  height: 42px;
+}
+.main-banner-inner {
+  top: 325px;
+  left: 1827px;
+}
+.group-item,
+.main-banner {
+  position: absolute;
+  top: 660.5px;
+  left: 24px;
+  width: 1920px;
+  height: 691px;
+}
+.group-item {
+  top: 0;
+  left: 0;
+  background-color: var(--color-whitesmoke);
+  height: 767px;
+}
+.vector-icon1 {
+  position: absolute;
+  top: 338.9px;
+  left: 882.2px;
+  width: 155.5px;
+  height: 101.5px;
+  display: none;
+}
+.rectangle-group {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 767px;
+}
+.special-nebu-child {
+  position: absolute;
+  top: 53px;
+  left: 284.5px;
+  width: 1397.6px;
+  height: 84.3px;
+}
+.our-top-five,
+.the-menu-list {
+  position: absolute;
+  top: 0;
+  left: 110px;
+  line-height: 65%;
+  display: inline-block;
+  width: 619px;
+  height: 46px;
+}
+.the-menu-list {
+  top: 57.1px;
+  left: 0;
+  font-size: 31px;
+  font-family: var(--font-abhaya-libre);
+  color: var(--color-gray);
+  width: 839px;
+  height: 46.7px;
+}
+.card-21-icon,
+.our-top-five-meals-parent {
+  position: relative;
+  width: 839px;
+  height: 103.8px;
+}
+.card-21-icon {
+  width: 292px;
+  height: 465px;
+  object-fit: contain;
+}
+.card-21-parent,
+.group-parent {
+  display: flex;
+  justify-content: flex-start;
+}
+.card-21-parent {
+  height: 465px;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 23px;
+}
+.group-parent {
+  position: absolute;
+  top: 49px;
+  left: 223.5px;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.see-more-menus {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 65%;
+  display: inline-block;
+  width: 839px;
+  height: 43px;
+}
+.vector-icon2 {
+  position: absolute;
+  top: 25px;
+  left: 404px;
+  width: 32px;
+  height: 13px;
+  object-fit: contain;
+}
+.see-more-menus-parent,
+.special-nebu {
+  position: absolute;
+  top: 678px;
+  left: 579.5px;
+  width: 839px;
+  height: 43px;
+  font-size: 25px;
+  color: var(--color-gray);
+  font-family: var(--font-abhaya-libre);
+}
+.special-nebu {
+  top: 1351.5px;
+  left: 24px;
+  width: 1920px;
+  height: 767px;
+  font-size: 60px;
+  color: var(--main-color);
+  font-family: var(--font-abeezee);
+}
+.promotions-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 615px;
+  object-fit: cover;
+}
+.vector-icon3 {
+  position: absolute;
+  top: 344.3px;
+  left: 882.2px;
+  width: 155.5px;
+  height: 103.1px;
+  display: none;
+}
+.ellipse-group {
+  position: absolute;
+  top: 582.2px;
+  left: 933px;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  height: 19.7px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.promotions-inner {
+  position: absolute;
+  top: 285px;
+  left: 1827px;
+  width: 42px;
+  height: 42px;
+}
+.promotions,
+.rectangle-div {
+  position: absolute;
+  top: 2118.5px;
+  left: 24px;
+  width: 1920px;
+  height: 615px;
+}
+.rectangle-div {
+  top: 0;
+  left: 0;
+  background-color: var(--color-whitesmoke);
+  height: 394px;
+}
+.vector-icon5 {
+  position: absolute;
+  top: 294.1px;
+  left: 882.2px;
+  width: 155.5px;
+  height: 88.1px;
+  display: none;
+}
+.group-div {
+  position: absolute;
+  top: 2733px;
+  left: 24px;
+  width: 1920px;
+  height: 394px;
+}
+.vector-icon10,
+.vector-icon6,
+.vector-icon9 {
+  position: relative;
+  width: 19px;
+  height: 20px;
+}
+.vector-icon10,
+.vector-icon9 {
+  width: 26.6px;
+}
+.vector-icon10 {
+  width: 14.9px;
+}
+.vector-parent {
+  position: absolute;
+  top: 2910px;
+  left: 121px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 39px;
+}
+.page-structure {
+  position: absolute;
+  top: -570px;
+  left: calc(50% - 987px);
+  width: 1947px;
+  height: 3240px;
+  text-align: center;
+}
+.group-child1,
+.image-1 {
+  position: absolute;
+  top: 109px;
+  left: 773px;
+  width: 396px;
+  height: 161px;
+}
+.group-child1 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--main-color);
+}
+.newsletter {
+  color: var(--color-whitesmoke);
+}
+.join-our-newsletter-container {
+  position: absolute;
+  height: 15.03%;
+  width: 51.98%;
+  top: 17.31%;
+  left: 4.61%;
+  font-size: 30px;
+  line-height: 26px;
+  display: inline-block;
+}
+.group-child2 {
+  position: absolute;
+  height: 35.43%;
+  width: 91.12%;
+  top: 41.89%;
+  right: 4.26%;
+  bottom: 22.69%;
+  left: 4.61%;
+  border-radius: var(--br-3xs);
+  background-color: #e3e3e3;
+}
+.your-email-address {
+  position: absolute;
+  height: 15.03%;
+  width: 23.48%;
+  top: 53.2%;
+  left: 7.96%;
+  font-family: var(--font-annie-use-your-telescope);
+  color: var(--grey);
+  display: inline-block;
+}
+.rectangle-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.subscribe {
+  position: absolute;
+  height: 40.81%;
+  width: 53.42%;
+  top: 31.94%;
+  left: 28.01%;
+  display: inline-block;
+}
+.vector-group {
+  position: absolute;
+  height: 35.43%;
+  width: 34.55%;
+  top: 41.89%;
+  right: 4.26%;
+  bottom: 22.69%;
+  left: 61.19%;
+  color: var(--color-whitesmoke);
+  font-family: var(--font-alef);
+}
+.rectangle-parent1 {
+  position: absolute;
+  height: 6.84%;
+  width: 26.64%;
+  top: 91.08%;
+  right: 4.4%;
+  bottom: 2.07%;
+  left: 68.96%;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-abhaya-libre);
+}
+.floating-card-button-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-90xl);
+  background-color: var(--main-color);
+  box-shadow: 0 9px 33px 3px rgba(0, 0, 0, 0.19);
+  width: 84px;
+  height: 84px;
+}
+.vector-icon11 {
+  width: 17.2px;
+  height: 16px;
+}
+.item,
+.vector-icon11 {
+  position: relative;
+}
+.vector-container {
+  position: absolute;
+  top: 22px;
+  left: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.floating-card-button {
+  position: absolute;
+  top: 856px;
+  left: 1795px;
+  width: 84px;
+  height: 84px;
+}
+.chews-wisely {
+  position: absolute;
+  top: 22px;
+  left: 26px;
+  font-size: 32px;
+  letter-spacing: -0.01em;
+  line-height: 65.65%;
+  display: inline-block;
+  font-family: var(--font-pridi);
+  color: var(--main-color);
+  text-align: center;
+  width: 244px;
+}
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--second-color);
+  box-shadow: 0 4px 21px rgba(0, 0, 0, 0.09);
+  width: 1920px;
+  height: 64px;
+  font-size: 17px;
+  font-family: var(--font-alef);
+}
+.landinng-page-tasty-good-deks {
+  position: relative;
+  width: 100%;
+  height: 2557px;
+  overflow-y: auto;
+  text-align: left;
+  font-size: 28px;
+  color: var(--second-color);
+  font-family: var(--font-alfa-slab-one);
+}

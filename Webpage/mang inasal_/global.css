@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-pridi: Pridi;
+  --font-alef: Alef;
+  --font-annie-use-your-telescope: "Annie Use Your Telescope";
+  --font-abhaya-libre: "Abhaya Libre";
+  --font-abeezee: ABeeZee;
+  --font-abhaya-libre-extrabold: "Abhaya Libre ExtraBold";
+  --font-alfa-slab-one: "Alfa Slab One";
+
+  /* font sizes */
+  --font-size-lg: 18px;
+
+  /* Colors */
+  --second-color: #fff;
+  --main-color: #f03153;
+  --color-whitesmoke: #f4f5f7;
+  --color-dimgray-100: #6c6c6c;
+  --grey: #616161;
+  --color-gray: #1c1c1c;
+
+  /* Gaps */
+  --gap-8xs: 5px;
+
+  /* Border radiuses */
+  --br-90xl: 109px;
+  --br-3xs: 10px;
+}
