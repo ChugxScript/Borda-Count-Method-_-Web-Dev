@@ -633,19 +633,19 @@ transform: scaleY(1);
    .mcdopic
    {
         display: inline;
-        width: 350px;
-        height: 450px
+        width: 550px;
+        height: 650px
    }
    .dealp{
         padding-top: 50px;
         padding-left: 40px;
-        width: 500px;
-        height: 70px;
+        width: 700px;
+        height: 90px;
     
    }
    .p1{
-        font-size: 15px;
-        width: 600px;
+        font-size: 20px;
+        width: 750px;
 
    }
    .t1{
@@ -654,19 +654,21 @@ transform: scaleY(1);
    .promotions{
         width: 250px;
         height: 60px;
-        padding-left: 360px;
+        padding-left: 560px;
    }
    .promp{
         padding-top: 30px;
    }
    .deals{
      width: fit-content;
-     flex-direction: column;
+     flex-direction: row;
      
     }
     .button2
     {
-        padding-top: 800px;
+        align-content: center;
+        padding-bottom: 100px;
+        padding-top: 350px;
         top: 100x;
     }
     .menu
@@ -711,7 +713,7 @@ transform: scaleY(1);
         margin-left: 10px;
         margin-right: 10px;
         margin-bottom: 10px;
-        left: 230px;
+        left: 330px;
     
     }
     .bt
