@@ -1,12 +1,16 @@
 .transparent-header {
-    background-color: rgba(255, 255, 255, 0.8);
+    font-family: Arial;
+    background-color: #646f7a00;
+    color: rgb(0, 0, 0);
     padding: 10px 0;
     position: fixed;
-    width: 100%;
+    width: 150%;
     z-index: 1000;
-}
+    left: 100px;
+    animation: fadeIn 1s ease-in-out;
+  }
 .header-title {
-    font-size: 24px;
+    
     font-weight: bold;
     animation: fadeIn 1s ease-in-out;
 }
@@ -27,15 +31,7 @@ text-align: center;
     font-family:'Trebuchet MS' ;
     text-align: center;
 }
-.header{
- background-color: #323232;
- color: white;
- font-size: 3;
- font-family:'Trebuchet MS' ;
- text-align: right;
- word-spacing: 20px;
 
-}
 .button1 {
 border: 3;
 color:white;
