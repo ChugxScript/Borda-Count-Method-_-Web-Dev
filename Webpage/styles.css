@@ -78,6 +78,10 @@ body {
 }
 #app h1 {
     color: #333;
+    text-align: center;
+}
+#app h2 {
+    text-align: center;
 }
 #app button {
     padding: 10px;
