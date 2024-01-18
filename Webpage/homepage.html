@@ -9,25 +9,30 @@
     <title>ChewsWisely</title>
 </head>
 <body>
-    <div class="transparent-header">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="header-title">ChewsWisely</div>
-                </div>
-                <div class="col-md-6 text-right">
-                    <!-- Add your typical contents here -->
-                </div>
-            </div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="navbar">
+        <a class="navbar-brand" href="">ChewsWisely</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home-top">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+            </ul>
         </div>
-    </div>
+    </nav>
 
-    <div class="Website-description">
+    <div id="home-top" class="Website-description">
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
-                    <h2>ChewsWisely</h2>
-                    <p>No more endless debates—just swipe, vote, and let the flavor of democracy unfold!</p>
+                    <h2>Welcome to ChewsWisely,</h2>
+                    <p>your ultimate culinary compass, guiding you through a delectable journey of diverse flavors and unique menus from various restaurants!</p>
                 </div>
             </div>
         </div>
@@ -70,7 +75,7 @@
                 <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.nPLmzXa1uJ33FIfrn9bBbAAAAA%26pid%3DApi&f=1&ipt=a308598ea03665cce68ef577bc37ca3b1fc30dd77dbf7e4b9d26ccf263361483&ipo=images" 
                 alt="Restaurant 4" class="restaurant-logo">
                 <p class="restaurant-name"><b>Chokeking</b></p>
-                <button id="Resto4" onclick="redirectHTML('./path/to/html')" class="btn btn-primary mt-2">View Menu</button>
+                <button id="Resto4" onclick="redirectHTML('./chokeking/chokeking.html')" class="btn btn-primary mt-2">View Menu</button>
             </div>
             <div class="col-md-4 text-center mb-4">
                 <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.c9lBEpGwrzJdCoUovf0RLAHaGv%26pid%3DApi&f=1&ipt=926bb2549988b8ef70d71663b20a90a8393e70fad8f9c298a3f031f774c224c7&ipo=images" 
@@ -82,12 +87,12 @@
         </div>
     </div>
 
-    <div class="about-us">
+    <div id="about" class="about-us">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
                     <h2 class="text-white mb-4">About Us</h2>
-                    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus ultrices eleifend gravida.</p>
+                    <p class="text-white">ChewsWisely, crafted by a dynamic team of five passionate students, is a delightful platform where our diverse talents converge to bring you the latest insights into the world of food, taste, and culinary exploration.</p>
                     <!-- Add more content about your team -->
                 </div>
             </div>
@@ -190,6 +195,24 @@
     
             </div>
             <!-- End Team Members -->
+        </div>
+    </div>    
+
+    <div id="fourthLayer" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3 text-center">
+                    <h2>Subscribe to Our Newsletter</h2>
+                    <p>Stay updated with our latest news and offers by subscribing to our newsletter.</p>
+                    <form id="subscribeForm" action="" method="post">
+                        <div class="form-group">
+                            <label for="email">Email Address:</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>    
 

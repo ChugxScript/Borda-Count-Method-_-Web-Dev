@@ -5,21 +5,6 @@ body {
     background-color: #f8f9fa;
 }
 
-/* header */
-.transparent-header {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    z-index: 1000;
-}
-
-.header-title {
-    font-size: 24px;
-    font-weight: bold;
-    animation: fadeIn 1s ease-in-out;
-}
-
 /* First layer */
 .first-layer-content {
     padding: 20px 0;
@@ -124,6 +109,17 @@ body {
     margin-right: 200px; /* Adjust the value to move it to the right */
 }
 
+/* fourth layer */
+.section {
+    padding: 80px 0;
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+}
+#fourthlayer {
+    background-color: #212529;
+}
+
 /* footer */
 .footer {
     background-color: #212529;
@@ -169,7 +165,7 @@ body {
         height: 400px;
     }
     .Website-description h2 {
-        margin-top: 160px; 
+        margin-top: 150px; 
         margin-left: 10px; 
         margin-right: 100px; 
     }
@@ -177,6 +173,7 @@ body {
         margin-bottom: 20px; 
         margin-left: 10px; 
         margin-right: 100px; 
+        font-size: 10px;
     }
 
 
@@ -199,7 +196,7 @@ body {
         height: 500px;
     }
     .Website-description h2 {
-        margin-top: 250px; 
+        margin-top: 190px; 
         margin-left: 10px; 
         margin-right: 100px; 
     }
@@ -225,7 +222,7 @@ body {
 @media (min-width: 425px) {
     /* First layer */
     .Website-description h2 {
-        margin-top: 250px; 
+        margin-top: 210px; 
         margin-left: 10px; 
         margin-right: 100px; 
     }
@@ -262,6 +259,12 @@ body {
 
 /* laptop screen 1024px */
 @media (min-width: 1024px) {
+    /* First layer */
+    .Website-description h2 {
+        margin-top: 250px; 
+        margin-left: 10px; 
+        margin-right: 100px; 
+    }
     /* Second layer */
     .search-bar {
         max-width: 1024px;
