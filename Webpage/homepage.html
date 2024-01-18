@@ -87,6 +87,25 @@
         </div>
     </div>
 
+    <div id="bordaLayer" class="section">
+        <div class="container">
+            <div id="app">
+                <h1>Borda Count Voting System</h1>
+                <div id="candidates">
+                    <!-- Candidates will be dynamically loaded here -->
+                </div>
+                <input type="text" id="newCandidate" placeholder="Enter Candidate Name">
+                <button id="addCandidateBtn" onclick="addCandidate()">Add Candidate</button>
+                <button id="startVoteBtn" onclick="startVoting()" disabled>Start Vote</button>
+                <button id="submitVoteID" onclick="submitVote()" disabled>Submit Vote</button>
+                <div id="results">
+                    <!-- Results will be displayed here -->
+                </div>
+                <button id="voteAgainID" onclick="voteAgain()">Vote Again</button>
+            </div>        
+        </div>
+    </div>   
+
     <div id="about" class="about-us">
         <div class="container">
             <div class="row">

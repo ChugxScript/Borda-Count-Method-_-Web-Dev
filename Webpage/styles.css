@@ -68,6 +68,81 @@ body {
     transform: scale(1.1);
 }
 
+/* borda layer */
+#app {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+#app h1 {
+    color: #333;
+}
+#app button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+#candidates, #results {
+    margin-top: 20px;
+}
+.candidate {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+.candidate button {
+    background-color: #ff6961;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+#bordaLayer {
+    background-color: #FFEFD0;
+}
+button:disabled {
+    background-color: #CCCCCC; /* Light gray background for disabled buttons */
+}
+.rank-box {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    background-color: #35b4ae;
+}
+.candidates-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+.candidates-table th, .candidates-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+.rank-cell {
+    text-align: center;
+}
+.selected {
+    background-color: #ffeeba; /* Light yellow background for selected candidates */
+}
+.results-table {
+    width: 100%; /* Adjust as needed */
+    border-collapse: collapse;
+}
+.results-table th, .results-table td {
+    border: 1px solid #ddd; /* Border styling */
+    padding: 8px; /* Padding for cells */
+    text-align: left; /* Adjust text alignment */
+}
+
 /* third layer */
 .about-us {
     background-color: #343a40;
