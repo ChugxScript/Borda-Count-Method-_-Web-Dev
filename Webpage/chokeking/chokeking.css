@@ -1,0 +1,55 @@
+/* Add your custom styles here */
+
+body {
+    padding-top: 56px;
+}
+
+.section {
+    padding: 80px 0;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.picture {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.picture:hover {
+    transform: scale(1.1);
+}
+
+#afirstLayer {
+    background-image: url(https://cdn.discordapp.com/attachments/1155849215927406703/1197347350528663582/bg3.png?ex=65baef9e&is=65a87a9e&hm=cac7bc8caf1f2d79631f59d7dbafc794c920cc4526b7c680ede11ae2b3761ce9&);
+    height: 500px;
+}
+#firstLayer {
+    background-color: red;
+    background-image: url('https://cdn.discordapp.com/attachments/1155849215927406703/1197345298234753114/bg2.png?ex=65baedb4&is=65a878b4&hm=c267c340c249f29f9f9aedfd372aa4624f2350cbf579d66fb6806d03de72cd8d&');
+}
+
+#secondLayer {
+    background-image: url('https://cdn.discordapp.com/attachments/1155849215927406703/1197348794786922556/bg4.png?ex=65baf0f6&is=65a87bf6&hm=8de6b8749cc73083fa275b6f5ed6b17e0043b74a79fadcee5f3f7d0384550de3&');
+}
+#secondLayer img {
+    width: 100%; /* Make all images the same width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra spacing below inline images */
+}
+#secondLayer h3,
+#secondLayer p {
+    background-color: rgba(0, 0, 0, 0.7); /* Transparent black background */
+    color: #fff; /* White text color for better readability */
+    padding: 10px; /* Add padding as needed */
+    margin: 0; /* Remove default margin */
+}
+
+/* footer */
+.footer {
+    background-color: #212529;
+    color: white;
+    padding: 20px 0;
+    animation: fadeIn 1s ease-in-out;
+}
