@@ -1,0 +1,939 @@
+.transparent-header {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+.header-title {
+    font-size: 24px;
+    font-weight: bold;
+    animation: fadeIn 1s ease-in-out;
+}
+.first-layer-content {
+    padding: 20px 0;
+    animation: fadeIn 1s ease-in-out;
+}
+.t1{ background: #FDF0E7; 
+}
+.t2{
+column-rule-color:  #FDFDFD;
+}
+.p1{
+font-family:'Trebuchet MS' ;
+text-align: center;
+}
+.p5{
+    font-family:'Trebuchet MS' ;
+    text-align: center;
+}
+.header{
+ background-color: #323232;
+ color: white;
+ font-size: 3;
+ font-family:'Trebuchet MS' ;
+ text-align: right;
+ word-spacing: 20px;
+
+}
+.button1 {
+border: 3;
+color:white;
+padding: 15px 32px;
+text-decoration: none;
+display: inline-block;
+font-size: 5;
+position: absolute;
+top: 90%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+}
+.deals{
+width: 90%;
+padding: 20px;
+margin: 50px auto;
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+}
+.box{
+height: 250px;
+width: 200px;
+margin: 0 10px;
+box-shadow: 0 0 20px 2px rgba(0, 0, 0, 1);
+transition: 1s;
+}
+.box img{
+display: block;
+height: 100%;
+width: 100%;
+border-radius: 5px;
+
+}
+.box :hover{
+transform: scale(1.3);
+z-index: 2;
+}
+.dealp{
+    align-content: center;
+    
+    
+}
+.t3{
+background: #FDFDFD;
+size: 50000px;
+}
+.p3{
+color: white;
+
+font-family: 'Times New Roman';
+text-align: center;
+font-size: 30px;
+}
+.p4{
+font-family:'Trebuchet MS' ;
+text-align: center;
+color: white;
+}
+.button2{
+position: absolute;
+top: 180%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+}
+.bt{
+background: none;
+border: 2px solid black;
+font-family: 'Trebuchet MS';
+text-transform: uppercase;
+padding: 12px 20px;
+min-width: 200px;
+margin:10px;
+cursor: pointer;
+transition: color 0.4s linear;
+position: relative;
+color: black;
+}
+.bt:hover{
+color: #000
+}
+.bt::before{
+content: "";
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+background: red;
+z-index: -1;
+transition: transform 0.5s;
+transform-origin: 0 0;
+transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+
+}
+.bt2::before{
+transform: scaleX(0);
+}
+.bt2:hover::before{
+transform: scaleX(1);
+}
+.bt3::before{
+transform: scaleY(0);
+}
+.bt3:hover::before{
+transform: scaleY(1);
+}
+.promotions{
+    font-size: 50px;
+    color: red;
+    font-family: 'Helvetica';
+    align-content: center;
+}
+.promp{
+    background-color: #FDFDFD;
+    border: #323232;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+.menu{
+    width: 100%;
+    padding: 10px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.box2{
+    height: 350px;
+    width: 250px;
+    margin: 10px 60px;
+    border-color: #000;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 1);
+    transition: 1s;
+}
+.box2 img{
+    display: block;
+    height: 60%;
+    width: 100%;
+    border-radius: 3px;
+    
+}
+.box2 :hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+.description{
+    border-color: #000;
+    padding: 20px;
+    text-align: center;
+    font-family: Helvetica;
+}
+.prices{ 
+    text-align: center;
+    background: black;
+    border: 1px solid black;
+    font-family: 'Trebuchet MS';
+    text-transform: uppercase;
+    padding: 12px 20px;
+    min-width: 25px;
+    margin:10px;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    position: relative;
+    color: white;
+    
+}
+
+#popup-container {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+#close-btn {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: #555;
+}
+.mcdopic
+{
+    width:350px;
+    height: 525px;
+}
+.tb{
+    align-content: center;
+}
+@media (max-width: 320px)
+ {
+    .header-title{
+        font-size: 15px;
+        width: fit-content;
+    }
+    .transparent-header{
+        width: 320px;
+    }
+   .mcdopic{
+        display: none;
+   }
+   .dealp{
+        padding-top: 50px;
+        width: 300px;
+        height: 60px;
+    
+   }
+   .p1{
+        font-size: 12px;
+        width: fit-content;
+
+   }
+   .t1{
+        width: 320px;
+   }
+   .promotions{
+        width: 160px;
+        height: 50px;
+        padding-left: 70px;
+   }
+   .promp{
+        padding-top: 30px;
+   }
+   .deals{
+     width: fit-content;
+     flex-direction: column;
+    }
+    .button2
+    {
+        padding-top: 2500px;
+        top: 100x;
+    }
+    .menu
+    {
+        flex-direction: column;
+        padding-left: -15px;
+        margin-bottom: -120px
+        
+    }
+    .box2
+    {
+        width: fit-content;
+    }
+    .box
+    {
+        margin-bottom: 10px;
+    }
+    .p5{
+        font-size: 10px;
+        justify-content: center;
+        margin-left: -5px;
+        margin: -20px;
+        
+    }
+    .popup-container
+    {
+        display: none;
+        position: fixed;
+        width: fit-content;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 50px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+    
+    }
+    .button1
+    {
+        display: none;
+    }
+    .bt
+    {
+        min-width: 160px;
+    }
+}
+
+/* mobile medium screen 375px */
+@media (min-width: 375px) {
+    .header-title{
+        font-size: 20px;
+        width: fit-content;
+    }
+    .transparent-header{
+        width: 375px;
+    }
+   .mcdopic{
+        display: none;
+   }
+   .dealp{
+        padding-top: 50px;
+        width: 350px;
+        height: 60px;
+    
+   }
+   .p1{
+        font-size: 15px;
+        width: fit-content;
+
+   }
+   .t1{
+        width: 375px;
+   }
+   .promotions{
+        padding-top: 20px;
+        width: 220px;
+        height: 50px;
+        padding-left: 70px;
+   }
+   .promp{
+        padding-top: 30px;
+   }
+   .deals{
+     width: fit-content;
+     flex-direction: column;
+    }
+    .button2
+    {
+        padding-top: 2700px;
+        top: 100x;
+    }
+    .menu
+    {
+        width: fit-content;
+        flex-direction: column;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-bottom: -120px
+        
+    }
+    .box2
+    {
+        width: 210;
+    }
+    .box
+    {
+        margin-bottom: 10px;
+    }
+    .p5{
+        font-size: 10px;
+        justify-content: center;
+        
+    }
+    .popup-container
+    {
+        display: none;
+        position: fixed;
+        width: fit-content;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 50px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+    }
+    .button1
+    {
+        width: fit-content;
+        padding-bottom: 20px;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        left: 90px;
+        
+    }
+    .bt
+    {
+        min-width: 160px
+    }
+}
+
+/* mobile large screen 425px */
+@media (min-width: 425px) 
+{
+    .header-title{
+        font-size: 20px;
+        width: fit-content;
+    }
+    .transparent-header{
+        width: 425px;
+    }
+   .mcdopic{
+        display: none;
+   }
+   .dealp{
+        padding-top: 50px;
+        padding-left: 20px;
+        width: 350px;
+        height: 60px;
+    
+   }
+   .p1{
+        font-size: 15px;
+        width: 380px;
+
+   }
+   .t1{
+        width: 320px;
+   }
+   .promotions{
+        width: 200px;
+        height: 50px;
+        padding-left: 100px;
+   }
+   .promp{
+        padding-top: 30px;
+   }
+   .deals{
+     width: fit-content;
+     flex-direction: column;
+    }
+    .button2
+    {
+        padding-top: 2600px;
+        top: 100x;
+    }
+    .menu
+    {
+        flex-direction: column;
+        padding-left: 15px;
+        margin-bottom: -120px
+        
+    }
+    .box2
+    {
+        width: 210px;
+    }
+    .box
+    {
+        margin-bottom: 10px;
+    }
+    .p5{
+        font-size: 10px;
+        justify-content: center;
+        
+    }
+    .popup-container
+    {
+        display: none;
+        position: fixed;
+        width: fit-content;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 50px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+    }
+    .button1
+    {
+        width: fit-content;
+        padding-bottom: 10px;
+        margin-top: 10px;
+        margin-left: 16px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        left: 90px;
+        
+    }
+    .bt
+    {
+        min-width: 170px
+    }
+}
+@media (min-width: 768px) 
+{
+    .header-title{
+        font-size: 25px;
+        width: fit-content;
+    }
+    .transparent-header
+    {
+        width: 768px;
+    }
+   .mcdopic
+   {
+        display: inline;
+        width: 300px;
+        height: 400px
+   }
+   .dealp{
+        padding-top: 50px;
+        padding-left: 20px;
+        width: 350px;
+        height: 60px;
+    
+   }
+   .p1{
+        font-size: 15px;
+        width: 400px;
+
+   }
+   .t1{
+        width: 7px;
+   }
+   .promotions{
+        width: 200px;
+        height: 50px;
+        padding-left: 275px;
+   }
+   .promp{
+        padding-top: 30px;
+   }
+   .deals{
+     width: fit-content;
+     flex-direction: column;
+    }
+    .button2
+    {
+        padding-top: 2000px;
+        top: 100x;
+    }
+    .menu
+    {
+        flex-direction: row;
+        padding-left: 10px;
+        margin-bottom: -120px;
+        
+    }
+    .box2
+    {
+        width: 180px;
+        margin: 5px;
+    }
+    .box
+    {
+        margin-bottom: 10px;
+    }
+    .p5{
+        font-size: 20px;
+        justify-content: center;
+        
+    }
+    .popup-container
+    {
+        display: none;
+        position: fixed;
+        width: fit-content;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 50px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+    }
+    .button1
+    {
+        width: fit-content;
+        padding-bottom: 0px;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+        left: 185px;
+    
+    }
+    .bt
+    {
+        min-width: 170px
+    }
+}
+@media (min-width: 1024px) 
+{
+    .header-title{
+        font-size: 30px;
+        width: fit-content;
+    }
+    .transparent-header
+    {
+        width: 1024px;
+    }
+   .mcdopic
+   {
+        display: inline;
+        width: 350px;
+        height: 450px
+   }
+   .dealp{
+        padding-top: 50px;
+        padding-left: 40px;
+        width: 500px;
+        height: 70px;
+    
+   }
+   .p1{
+        font-size: 15px;
+        width: 600px;
+
+   }
+   .t1{
+        width: 7px;
+   }
+   .promotions{
+        width: 250px;
+        height: 60px;
+        padding-left: 360px;
+   }
+   .promp{
+        padding-top: 30px;
+   }
+   .deals{
+     width: fit-content;
+     flex-direction: column;
+     
+    }
+    .button2
+    {
+        padding-top: 800px;
+        top: 100x;
+    }
+    .menu
+    {
+        flex-direction: row;
+        padding-left: 10px;
+        margin-bottom: -120px;
+        
+    }
+    .box2
+    {
+        width: 250px;
+        margin: 20px;
+    }
+    .box
+    {
+        margin-bottom: 10px;
+    }
+    .p5{
+        font-size: 20px;
+        justify-content: center;
+        
+    }
+    .popup-container
+    {
+        display: none;
+        position: fixed;
+        width: fit-content;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 50px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+    }
+    .button1
+    {
+        width: fit-content;
+        padding-bottom: 0px;
+        margin-top: 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        left: 230px;
+    
+    }
+    .bt
+    {
+        min-width: 170px
+    }
+}
+/* laptop large screen 1440px */
+@media (min-width: 1440px) {
+    /* First layer */
+    .header-title{
+        font-size: 40px;
+        width: fit-content;
+    }
+    .transparent-header
+    {
+        width: 1420px;
+    }
+   .mcdopic
+   {
+        display: inline;
+        width: 450px;
+        height: 550px
+   }
+   .dealp{
+        padding-top: 90px;
+        padding-left: 90px;
+        padding-bottom: 40px;
+        width: 700px;
+        height: 80px;
+    
+   }
+   .p1{
+        font-size: 25px;
+        width: 900px;
+
+   }
+   .t1{
+        width: 7px;
+        padding-bottom: 100px;
+   }
+   .promotions{
+        width: 350px;
+        height: 80px;
+        padding-left: 540px;
+   }
+   .promp{
+        padding-top: 30px;
+   }
+   .deals{
+     width: fit-content;
+     flex-direction: row;
+     padding-left: -5px;
+     
+    }
+    .button2
+    {
+        padding-top: 150px;
+        padding-bottom: 1500px;
+        top: 100x;
+    }
+    .menu
+    {
+        flex-direction: row;
+        padding-left: 10px;
+        margin-bottom: -120px;
+        
+    }
+    .box2
+    {
+        width: 350px;
+        height: 400px;
+        margin: 20px;
+    }
+    .box
+    {
+        margin-bottom: 10px;
+    }
+    .p5{
+        font-size: 20px;
+        justify-content: center;
+        
+    }
+    .popup-container
+    {
+        display: none;
+        position: fixed;
+        width: fit-content;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 50px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+    }
+    .button1
+    {
+        width: fit-content;
+        padding-bottom: 0px;
+        margin-top: 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        left: 330px;
+    
+    }
+    .bt
+    {
+        min-width: 170px
+    }
+}
+
+/* 4k screen 2560px */
+@media (min-width: 2560px) {
+    /* First layer */
+    .header-title{
+        font-size: 60px;
+        width: fit-content;
+    }
+    .transparent-header
+    {
+        width: 2560px;
+    }
+   .mcdopic
+   {
+        display: inline;
+        width: 950px;
+        height: 1050px
+   }
+   .dealp{
+        padding-top: 200px;
+        padding-left: 90px;
+        padding-bottom: 40px;
+        width: 1200px;
+        height: 130px;
+    
+   }
+   .p1{
+        font-size: 45px;
+        width: 1400px;
+        padding-top: 30px;
+
+   }
+   .t1{
+        width: 7px;
+        padding-bottom: 200px;
+   }
+   .promotions{
+        width: 450px;
+        height: 100px;
+        padding-left: 1040px;
+   }
+   .promp{
+        padding-top: 30px;
+   }
+   .deals{
+     width: fit-content;
+     flex-direction: row;
+     padding-left: 5px;
+
+    }
+    .button2
+    {
+        padding-top: 450px;
+        padding-bottom: 4000px;
+        top: 100x;
+    }
+    .menu
+    {
+        width: fit-content;
+        flex-direction: row;
+        padding-left: 10px;
+        margin-bottom: -120px;
+        
+    }
+    .box2
+    {
+        width: 550px;
+        height: 400px;
+        margin: 50px;
+    }
+    .box
+    {
+        width: fit-content;
+        margin-bottom: 10px;
+    }
+    .p5{
+        font-size: 25px;
+        justify-content: center;
+        
+    }
+    .popup-container
+    {
+        display: none;
+        position: fixed;
+        width: fit-content;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 50px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+    }
+    .button1
+    {
+        width: fit-content;
+        padding-bottom: 0px;
+        margin-top: -5px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        left: 630px;
+    
+    }
+    .bt
+    {
+        min-width: 170px
+    }
+}
