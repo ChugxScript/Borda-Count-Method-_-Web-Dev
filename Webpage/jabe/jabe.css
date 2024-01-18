@@ -10,12 +10,12 @@
   /* Colors */
   --color-linen: #fdf0e7;
 
-    /* Colors */
-    --color-linen: #fdf0e7;
-    --color-firebrick: #c7171e;
-    --color-white: #fff;
-    --color-black: #000;
-    --color-gainsboro: rgba(217, 217, 217, 0);
+  /* Colors */
+  --color-linen: #fdf0e7;
+  --color-firebrick: #c7171e;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-gainsboro: rgba(217, 217, 217, 0);
 
   /* Border radiuses */
   --br-xl: 20px;
@@ -23,7 +23,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
   background-color: #fafafa;
@@ -31,15 +31,17 @@ body {
 }
 
 .transparent-header {
-  background-color: #343a40;
-  color: white;
+  top: 20px;
+  font-family: Arial;
+  background-color: #646f7a00;
+  color: rgb(0, 0, 0);
   padding: 10px 0;
   position: fixed;
-  width: 100%;
+  width: 150%;
   z-index: 1000;
+  left: 70px;
   animation: fadeIn 1s ease-in-out;
 }
-
 .header-title {
   font-size: 24px;
   font-weight: bold;
@@ -58,7 +60,6 @@ body {
   font-family: var(--font-poppins);
 }
 
-
 .layer-container {
   display: flex;
   justify-content: space-between;
@@ -75,6 +76,7 @@ body {
   width: 459.2px;
   height: 439.78px;
 }
+
 .cokesplash-icon,
 .pilefries-1-icon {
   position: absolute;
@@ -84,6 +86,7 @@ body {
   height: 325.83px;
   object-fit: cover;
 }
+
 .cokesplash-icon {
   top: 79.1px;
   left: 10.72px;
@@ -91,6 +94,7 @@ body {
   height: 305.69px;
   object-fit: contain;
 }
+
 .cokefloat-icon,
 .tuna-peach-icon {
   position: absolute;
@@ -100,11 +104,13 @@ body {
   height: 211.89px;
   object-fit: cover;
 }
+
 .cokefloat-icon {
   left: 75.25px;
   width: 331.48px;
   height: 237.31px;
 }
+
 .burg-fri-co-icon,
 .icecube1-icon,
 .jabe-spag-icon {
@@ -115,6 +121,7 @@ body {
   height: 291.93px;
   object-fit: cover;
 }
+
 .icecube1-icon,
 .jabe-spag-icon {
   top: 61.21px;
@@ -122,6 +129,7 @@ body {
   width: 673.69px;
   height: 455.79px;
 }
+
 .icecube1-icon {
   top: 101.7px;
   left: 38.02px;
@@ -129,6 +137,7 @@ body {
   height: 46.65px;
   object-fit: contain;
 }
+
 .icecube2-icon,
 .icecube3-icon,
 .icecube4-icon {
@@ -139,6 +148,7 @@ body {
   height: 69.26px;
   object-fit: contain;
 }
+
 .icecube3-icon,
 .icecube4-icon {
   top: 54.62px;
@@ -146,12 +156,14 @@ body {
   width: 53.07px;
   height: 49.48px;
 }
+
 .icecube4-icon {
   top: 0;
   left: 61.42px;
   width: 48.77px;
   height: 40.06px;
 }
+
 .homefood {
   position: absolute;
   top: 150px;
@@ -159,6 +171,7 @@ body {
   width: 856px;
   height: 517px;
 }
+
 .chicken-side-icon,
 .fries-side-icon,
 .sodasplash-icon {
@@ -169,6 +182,7 @@ body {
   height: 179.93px;
   object-fit: contain;
 }
+
 .fries-side-icon,
 .sodasplash-icon {
   top: 108px;
@@ -176,6 +190,7 @@ body {
   width: 352.17px;
   height: 355.4px;
 }
+
 .sodasplash-icon {
   top: 220px;
   left: 1200px;
@@ -183,6 +198,7 @@ body {
   height: 687px;
   object-fit: cover;
 }
+
 .chiliside-icon,
 .ice-side-icon {
   position: absolute;
@@ -192,6 +208,7 @@ body {
   height: 427.34px;
   object-fit: contain;
 }
+
 .chiliside-icon {
   top: 150px;
   left: 1350px;
@@ -210,15 +227,6 @@ body {
   color: #c7171e;
 }
 
-.promodes {
-  position: absolute;
-  top: 150px;
-  left: 480px;
-  letter-spacing: 0.3em;
-  font-size: 20px;
-}
-
-
 .chicken-sidep-icon,
 .chicken-sidep1-icon,
 .fries-sidep-icon {
@@ -230,6 +238,7 @@ body {
   object-fit: contain;
   opacity: 0.2;
 }
+
 .chicken-sidep-icon,
 .chicken-sidep1-icon {
   top: 247px;
@@ -237,12 +246,14 @@ body {
   width: 282.48px;
   height: 329.92px;
 }
+
 .chicken-sidep-icon {
   top: -92px;
   left: 1033px;
   width: 508.41px;
   height: 416px;
 }
+
 .chilisidep1-icon,
 .sodasplashp-icon {
   position: absolute;
@@ -253,12 +264,14 @@ body {
   object-fit: cover;
   opacity: 0.2;
 }
+
 .sodasplashp-icon {
   top: 247px;
   left: 584px;
   width: 664px;
   height: 687px;
 }
+
 .chilisidep-icon,
 .ice-sidep-icon {
   position: absolute;
@@ -269,13 +282,14 @@ body {
   opacity: 0.1;
   object-fit: contain;
 }
+
 .ice-sidep-icon {
   top: 103px;
   left: 623px;
   width: 446.21px;
   height: 427.34px;
-  
 }
+
 .jabeappromo-icon,
 .mixnmatchpromo-icon {
   top: 0;
@@ -283,20 +297,38 @@ body {
   width: 304px;
   object-fit: cover;
 }
+
 .jabeappromo-icon {
   position: absolute;
   left: 428px;
   height: 386px;
 }
+
 .mixnmatchpromo-icon {
   left: 0;
 }
+
 .christmaspromo-icon,
 .mixnmatchpromo-icon,
 .promos {
   position: absolute;
   height: 386px;
+  display: flex;
+  justify-content: space-between;
 }
+
+.promos img {
+  width: 304px;
+  /* Adjust the width as needed */
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.promos img:hover {
+  transform: scale(1.1);
+  /* Adjust the scale factor as needed */
+}
+
 .christmaspromo-icon {
   top: 0;
   left: 855px;
@@ -304,6 +336,7 @@ body {
   width: 304px;
   object-fit: cover;
 }
+
 .promos {
   top: 219px;
   left: 200px;
@@ -314,7 +347,6 @@ body {
   position: absolute;
   top: 700px;
   left: 0;
-  width: 1440px;
   height: 705px;
 }
 
@@ -328,12 +360,14 @@ body {
   object-fit: contain;
   opacity: 0.4;
 }
+
 .fries-sidep-icon {
   top: -98px;
   left: 984px;
   width: 550px;
   height: 564.58px;
 }
+
 .cjoyrectangle {
   position: absolute;
   top: 353px;
@@ -342,6 +376,7 @@ body {
   width: 1550px;
   height: 254px;
 }
+
 .c3-box {
   position: absolute;
   top: 33px;
@@ -352,6 +387,7 @@ body {
   width: 270px;
   height: 270px;
 }
+
 .c3-text {
   position: absolute;
   top: 203px;
@@ -362,14 +398,7 @@ body {
   width: 209px;
   height: 50px;
 }
-.c3-icon {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 300px;
-  height: 210px;
-  object-fit: cover;
-}
+
 .pricebox3 {
   position: absolute;
   top: 260px;
@@ -381,6 +410,7 @@ body {
   width: 165px;
   height: 65px;
 }
+
 .price3 {
   position: absolute;
   top: 278px;
@@ -390,6 +420,7 @@ body {
   font-weight: 600;
   color: var(--color-white);
 }
+
 .c2-box,
 .c3 {
   position: absolute;
@@ -398,6 +429,7 @@ body {
   width: 300px;
   height: 322px;
 }
+
 .c2-box {
   top: 33px;
   left: 15px;
@@ -407,6 +439,7 @@ body {
   width: 270px;
   height: 270px;
 }
+
 .c2-text {
   position: absolute;
   top: 203px;
@@ -417,6 +450,7 @@ body {
   width: 209px;
   height: 50px;
 }
+
 .pricebox2 {
   position: absolute;
   top: 260px;
@@ -428,6 +462,7 @@ body {
   width: 165px;
   height: 65px;
 }
+
 .price2 {
   position: absolute;
   top: 278px;
@@ -437,6 +472,7 @@ body {
   font-weight: 600;
   color: var(--color-white);
 }
+
 .c1-box,
 .c2 {
   position: absolute;
@@ -445,6 +481,7 @@ body {
   width: 300px;
   height: 322px;
 }
+
 .c1-box {
   top: 33px;
   left: 27px;
@@ -454,6 +491,7 @@ body {
   width: 270px;
   height: 270px;
 }
+
 .c1-text {
   position: absolute;
   top: 203px;
@@ -464,6 +502,7 @@ body {
   width: 209px;
   height: 50px;
 }
+
 .pricebox1 {
   top: 260px;
   left: 80px;
@@ -474,11 +513,13 @@ body {
   width: 165px;
   height: 65px;
 }
+
 .c1,
 .price1,
 .pricebox1 {
   position: absolute;
 }
+
 .price1 {
   top: 278px;
   left: 108px;
@@ -487,18 +528,21 @@ body {
   font-weight: 600;
   color: var(--color-white);
 }
+
 .c1 {
   top: 239px;
   left: 128px;
   width: 300px;
   height: 322px;
 }
+
 .chicken-joy,
 .menu-list {
   position: absolute;
   color: var(--color-white);
   text-align: left;
 }
+
 .menu-list {
   top: 52px;
   left: 456px;
@@ -506,12 +550,14 @@ body {
   letter-spacing: 0.5em;
   font-family: var(--font-chewy);
 }
+
 .chicken-joy {
   top: 191px;
   left: 544px;
   font-size: 40px;
   letter-spacing: 0.2em;
 }
+
 .menuframe {
   position: absolute;
   top: 1400px;
@@ -522,3 +568,1327 @@ body {
   overflow: hidden;
 }
 
+
+@media (max-width: 1200px) {
+  .transparent-header {
+    padding: 10px 0;
+  }
+
+  .header-title {
+    font-size: 20px;
+  }
+
+  .desktop {
+    font-size: 18px;
+    height: 2100px;
+  }
+
+  .layer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .homefood {
+    top: 123.66px;
+    left: 226.37px;
+    width: 653.91px;
+    height: 398.15px;
+  }
+
+  .home-circle {
+    top: 29.73px;
+    left: 130.33px;
+    border-radius: 50%;
+    filter: blur(4px);
+    width: 350.79px;
+    height: 338.68px;
+  }
+
+  .pilefries-1-icon {
+    top: 2.9px;
+    left: 360.47px;
+    width: 293.44px;
+    height: 250.93px;
+  }
+
+  .cokesplash-icon {
+    top: 60.92px;
+    left: 8.19px;
+    width: 197.01px;
+    height: 235.42px;
+  }
+
+  .tuna-peach-icon {
+    top: 81.23px;
+    left: 360.47px;
+    width: 223.43px;
+    height: 163.18px;
+  }
+
+  .cokefloat-icon {
+    left: 52.13px;
+    width: 253.22px;
+    height: 182.76px;
+  }
+
+  .burg-fri-co-icon {
+    top: 131.99px;
+    left: 14.9px;
+    width: 271.84px;
+    height: 224.82px;
+  }
+
+  .jabe-spag-icon {
+    top: 47.14px;
+    left: 128.84px;
+    width: 514.63px;
+    height: 351.01px;
+  }
+
+  .icecube1-icon {
+    top: 78.32px;
+    left: 29.05px;
+    width: 45.7px;
+    height: 35.93px;
+  }
+
+  .icecube2-icon {
+    top: 22.48px;
+    left: 0;
+    width: 58.36px;
+    height: 53.33px;
+  }
+
+  .icecube3-icon {
+    top: 42.06px;
+    left: 64.05px;
+    width: 40.54px;
+    height: 38.1px;
+  }
+
+  .icecube4-icon {
+    top: 0;
+    left: 46.92px;
+    width: 37.26px;
+    height: 30.85px;
+  }
+
+  .chicken-side-icon,
+  .fries-side-icon,
+  .sodasplash-icon {
+    top: 349.3px;
+    left: 38.45px;
+    width: 164.97px;
+    height: 138.57px;
+  }
+
+  .fries-side-icon,
+  .sodasplash-icon {
+    top: 92.85px;
+    left: -px;
+    width: 269.02px;
+    height: 273.7px;
+  }
+
+  .sodasplash-icon {
+    top: 230px;
+    left: 891px;
+    width: 308px;
+    height: 529px;
+    object-fit: cover;
+  }
+
+  .chiliside-icon,
+  .ice-side-icon {
+    top: 139.83px;
+    left: 955.14px;
+    width: 340.86px;
+    height: 329.1px;
+  }
+
+
+  .promotions {
+    top: 50px;
+    left: 323px;
+    width: 649px;
+    height: 78px;
+  }
+
+  .jabeappromo-icon {
+    left: 333.79px;
+  }
+
+  .christmaspromo-icon {
+    left: 666.81px;
+  }
+
+  .promos {
+    top: 215.66px;
+    left: 100.82px;
+    width: 903.9px;
+  }
+
+  .chicken-sidep-icon,
+.fries-sidep-icon {
+  top: -54px;
+  left: -149px;
+  width: 425.57px;
+  height: 349.65px;
+  opacity: 0.4;
+}
+.fries-sidep-icon {
+  top: -63px;
+  left: 885px;
+  width: 460.38px;
+  height: 474.53px;
+}
+.cjoyrectangle {
+  top: 401px;
+  left: 0;
+  width: 1205px;
+  height: 214px;
+}
+.c3-box {
+  top: 26.14px;
+  left: 24.32px;
+  width: 229.26px;
+  height: 230.12px;
+}
+.c3-text {
+  font-size: 13px;
+  top: 170px;
+  width: 174.94px;
+  left: 50px;
+  
+}
+.c3-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 251.12px;
+  height: 176.5px;
+  object-fit: cover;
+}
+.pricebox3 {
+  position: absolute;
+  top: 218.05px;
+  left: 68.99px;
+  width: 139.09px;
+  height: 55.59px;
+}
+.price3 {
+  top: 233.3px;
+  left: 72.38px;
+  width: 133px;
+  height: 26px;
+}
+.c2-box,
+.c3 {
+  top: 316.7px;
+  left: 833.62px;
+  width: 251.12px;
+  height: 270.64px;
+}
+.c2-box {
+  top: 26.14px;
+  left: 10.93px;
+  width: 229.26px;
+  height: 230.12px;
+}
+.c2-text {
+  font-size: 14px;
+  top: 190px;
+  width: 174.94px;
+  left: 38.5px;
+
+}
+.pricebox2 {
+  top: 218.05px;
+  left: 56.43px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-firebrick);
+  border: 3px solid var(--color-black);
+  box-sizing: border-box;
+  width: 139.09px;
+  height: 55.59px;
+}
+.price2 {
+  top: 233.3px;
+  left: 72.13px;
+  letter-spacing: 0.2em;
+  font-weight: 600;
+  color: var(--color-white);
+  display: inline-block;
+  width: 107px;
+  height: 26px;
+}
+.c1-box,
+.c2 {
+  top: 316.7px;
+  left: 477.87px;
+  width: 251.12px;
+  height: 270.64px;
+}
+.c1-box {
+  top: 26.14px;
+  left: 20.97px;
+  box-sizing: border-box;
+  width: 229.26px;
+  height: 230.12px;
+}
+.c1-text {
+  font-size: 14px;
+  top: 190px;
+  left: 48.55px;
+  width: 174.94px;
+}
+.pricebox1 {
+  top: 218.05px;
+  left: 66.48px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-firebrick);
+  border: 3px solid var(--color-black);
+  box-sizing: border-box;
+  width: 139.09px;
+  height: 55.59px;
+}
+
+.price1 {
+  top: 233.3px;
+  left: 79.9px;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.2em;
+  font-weight: 600;
+  color: var(--color-white);
+  display: inline-block;
+  width: 112px;
+  height: 26px;
+}
+.c1 {
+  top: 316.7px;
+  left: 117.1px;
+  width: 251.12px;
+  height: 270.64px;
+}
+.chicken-joy,
+.menu-list {
+  position: absolute;
+  display: inline-block;
+  color: var(--color-white);
+  text-align: left;
+}
+.menu-list {
+  top: 58px;
+  left: 400px;
+  font-size: 55px;
+  width: 504px;
+  height: 70px;
+}
+.chicken-joy{
+  top: 191px;
+  left: 475px;
+  font-size: 35px;
+  letter-spacing: 0.2em;
+}
+}
+
+@media (max-width: 960px){
+  .transparent-header{
+    width: 100%;  
+  }
+
+  .header-title {
+    font-size: 15px;
+  }
+  .desktop {
+    font-size: 20px;
+    height: 1700px;
+  }
+  
+  .layer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .home-circle {
+    position: absolute;
+    top: 20.91px;
+    left: 86.5px;
+    border-radius: 50%;
+    background-color: var(--color-firebrick);
+    filter: blur(4px);
+    width: 232.82px;
+    height: 238.18px;
+  }
+  .sodasplash-icon {
+    top: 150px;
+    left: 671px;
+    width: 308px;
+    height: 529px;
+    object-fit: cover;
+  }
+  .fries-side-icon{
+    top: 2cm;
+    left: -80px;
+    width: 164.97px;
+    height: 300px;
+  }
+
+  .chicken-side-icon{
+    top: 290px;
+    left: 20px;
+    width: 164.97px;
+    height: 138.57px;
+  }
+
+  .chiliside-icon
+   {
+    top: -2px;
+    left: 750px;
+    width: 340.86px;
+    height: 329.1px;
+  }
+  .ice-side-icon
+  {
+    top: 10px;
+    left: 800px;
+    width: 340.86px;
+    height: 329.1px;
+  }
+  .cokesplash-icon,
+  .pilefries-1-icon {
+    position: absolute;
+    top: 2.04px;
+    left: 239.24px;
+    width: 194.76px;
+    height: 176.47px;
+    object-fit: cover;
+  }
+  .cokesplash-icon {
+    top: 42.84px;
+    left: 5.44px;
+    width: 130.75px;
+    height: 165.56px;
+    object-fit: contain;
+  }
+  .cokefloat-icon,
+  .tuna-peach-icon {
+    position: absolute;
+    top: 57.12px;
+    left: 239.24px;
+    width: 148.29px;
+    height: 114.75px;
+    object-fit: cover;
+  }
+  .cokefloat-icon {
+    left: 34.6px;
+    width: 168.06px;
+    height: 128.52px;
+  }
+  .burg-fri-co-icon,
+  .icecube1-icon,
+  .jabe-spag-icon {
+    position: absolute;
+    top: 92.82px;
+    left: 9.89px;
+    width: 180.42px;
+    height: 158.11px;
+    object-fit: cover;
+  }
+  .icecube1-icon,
+  .jabe-spag-icon {
+    top: 33.15px;
+    left: 85.51px;
+    width: 341.56px;
+    height: 246.85px;
+  }
+  .icecube1-icon {
+    top: 55.08px;
+    left: 19.28px;
+    width: 30.33px;
+    height: 25.27px;
+    object-fit: contain;
+  }
+  .icecube2-icon,
+  .icecube3-icon,
+  .icecube4-icon {
+    position: absolute;
+    top: 15.81px;
+    left: 0;
+    width: 38.74px;
+    height: 37.51px;
+    object-fit: contain;
+  }
+  .icecube3-icon,
+  .icecube4-icon {
+    top: 29.58px;
+    left: 42.51px;
+    width: 26.9px;
+    height: 26.8px;
+  }
+  .icecube4-icon {
+    top: 0;
+    left: 31.14px;
+    width: 24.73px;
+    height: 21.7px;
+  }
+  .homefood,
+  .promotions {
+    top: 158px;
+    left: 263px;
+    width: 434px;
+    height: 280px;
+  }
+  .promotionframe{
+    top: 550px;
+    left: 200px;
+  }
+  .chicken-sidep-icon {
+    
+    top: 3px;
+    left: -10px;
+    
+    height: 206.78px;
+    opacity: 0.4;
+  }
+  .jabeappromo-icon,
+  .mixnmatchpromo-icon {
+    top: 0;
+    left: 4px;
+    width: 125.41px;
+  }
+  .jabeappromo-icon {
+    
+    position: absolute;
+    left: 176.29px;
+    height: 174px;
+  }
+  .mixnmatchpromo-icon {
+    top: 0;
+    left: -100px;
+  }
+  .christmaspromo-icon,
+  .mixnmatchpromo-icon,
+  .promos {
+    position: center;
+    height: 174px;
+  }
+  .christmaspromo-icon {
+    top: 0;
+    left: 450px;
+    border-radius: var(--br-xl);
+    width: 125.41px;
+    object-fit: cover;
+  }
+  .promos {
+    top: 5px;
+    left: 1px;
+    width: 500px;
+  }
+  
+  .promos img {
+    width: 204px;
+    top: 70px;
+    /* Adjust the width as needed */
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .promos img:hover {
+    transform: scale(1.1);
+    /* Adjust the scale factor as needed */
+  }
+  
+  .fries-sidep-icon {
+    position: absolute;
+    top: 200px;
+    left: -98px;
+    width: 254.2px;
+    height: 280.64px;
+    object-fit: contain;
+    opacity: 0.4;
+  }
+  .sodasplashp-icon {
+    top: 135px;
+    left: 302px;
+    width: 307px;
+    height: 341px;
+    object-fit: cover;
+  }
+  
+  
+  .chicken-sidep1-icon,
+  .ice-sidep-icon {
+    top: 1.58px;
+    left: 19.2px;
+    width: 130.56px;
+    height: 164px;
+    opacity: 0.4;
+  }
+  .ice-sidep-icon {
+    top: 43px;
+    left: 309.53px;
+    width: 206.23px;
+    height: 212.42px;
+  }
+  .promotions {
+    font-size: 40px;
+    top: 3px;
+    left: 70px;
+    letter-spacing: 0.5em;
+    display: inline-block;
+    width: 424px;
+    height: 42px;
+  }
+  
+  .chicken-sidep-icon,
+  .fries-sidep-icon {
+    position: absolute;
+    top: -39.63px;
+    left: -102px;
+    width: 263.14px;
+    height: 286.22px;
+    object-fit: contain;
+    opacity: 0.4;
+  }
+  .fries-sidep-icon {
+    top: 200px;
+    left: -70px;
+    width: 284.66px;
+    height: 388.44px;
+  }
+
+  .menuframe{
+    top: 1000px;
+    left: 0px;
+  }
+
+  .chicken-sidep-icon,
+  .fries-sidep-icon {
+    position: absolute;
+    top: -26.2px;
+    left: -101px;
+    width: 334.33px;
+    height: 303.2px;
+    object-fit: contain;
+    opacity: 0.4;
+  }
+  .fries-sidep-icon {
+    top: -34px;
+    left: 711.32px;
+    width: 361.68px;
+    height: 411.5px;
+  }
+  .cjoyrectangle {
+    position: absolute;
+    top: 334px;
+    left: 0;
+    background-color: #e7bb79;
+    width: 960px;
+    height: 185px;
+  }
+  .c3-box {
+    position: absolute;
+    top: 21.34px;
+    left: 16.96px;
+    background-color: var(--color-gainsboro);
+    border: 10px solid var(--color-linen);
+    box-sizing: border-box;
+    width: 184.4px;
+    height: 202.21px;
+  }
+  .c3-text {
+    position: absolute;
+    top: 147.96px;
+    left: 40.11px;
+    letter-spacing: 0.2em;
+    font-weight: 600;
+    display: inline-block;
+    width: 137.44px;
+    height: 36.44px;
+    font-size: 10px;
+  }
+  .c3-icon {
+   
+    top: 0;
+    left: 23px;
+    width: 155.27px;
+    height: 140.48px;
+
+  }
+  .pricebox3 {
+    position: absolute;
+    top: 188.69px;
+    left: 53.55px;
+    border-radius: var(--br-11xl);
+    background-color: var(--color-firebrick);
+    border: 3px solid var(--color-black);
+    box-sizing: border-box;
+    width: 110.56px;
+    height: 49px;
+  }
+  .price3 {
+    font-size: 15px;
+    position: absolute;
+    top: 202.31px;
+    left: 56.86px;
+    letter-spacing: 0.2em;
+    font-weight: 600;
+    color: var(--color-white);
+    display: inline-block;
+    width: 104.49px;
+    height: 22.55px;
+  }
+  .c2-box,
+  .c3 {
+    position: absolute;
+    top: 257.32px;
+    left: 670.96px;
+    width: 197.28px;
+    height: 234.69px;
+  }
+  .c2-box {
+    top: 21.34px;
+    left: 6.44px;
+    background-color: var(--color-gainsboro);
+    border: 10px solid var(--color-linen);
+    box-sizing: border-box;
+    width: 184.4px;
+    height: 202.21px;
+  }
+  .c2-text {
+    position: absolute;
+    top: 147.96px;
+    left: 30.25px;
+    letter-spacing: 0.2em;
+    font-weight: 600;
+    display: inline-block;
+    width: 137.44px;
+    height: 36.44px;
+  }
+  .pricebox2 {
+    position: absolute;
+    top: 188.69px;
+    left: 43.69px;
+    border-radius: var(--br-11xl);
+    background-color: var(--color-firebrick);
+    border: 3px solid var(--color-black);
+    box-sizing: border-box;
+    width: 110.56px;
+    height: 49px;
+  }
+  .price2 {
+    font-size: 15px;
+    position: absolute;
+    top: 202.31px;
+    left: 56.66px;
+    letter-spacing: 0.2em;
+    font-weight: 600;
+    color: var(--color-white);
+    display: inline-block;
+    width: 84.06px;
+    height: 22.55px;
+  }
+  .c2-icon {
+  
+    top: 0;
+    left: 5;
+    width: 155.27px;
+    height: 144.48px;
+    
+  }
+  .c1-box,
+  .c2 {
+    position: absolute;
+    top: 257.32px;
+    left: 391.48px;
+    width: 197.28px;
+    height: 234.69px;
+  }
+  .c1-box {
+    top: 21.34px;
+    left: 14.33px;
+    background-color: var(--color-gainsboro);
+    border: 10px solid var(--color-white);
+    box-sizing: border-box;
+    width: 184.4px;
+    height: 202.21px;
+  }
+  .c1-text {
+    position: absolute;
+    top: 147.96px;
+    left: 38.14px;
+    letter-spacing: 0.2em;
+    font-weight: 600;
+    display: inline-block;
+    width: 137.44px;
+    height: 36.44px;
+  }
+  .pricebox1 {
+    top: 188.69px;
+    left: 51.58px;
+    border-radius: var(--br-11xl);
+    background-color: var(--color-firebrick);
+    border: 3px solid var(--color-black);
+    box-sizing: border-box;
+    width: 110.56px;
+    height: 49px;
+  }
+  .c1,
+  .price1,
+  .pricebox1 {
+    position: absolute;
+  }
+  .price1 {
+    font-size: 15px;
+    top: 202.31px;
+    left: 62.77px;
+    letter-spacing: 0.2em;
+    font-weight: 600;
+    color: var(--color-white);
+    display: inline-block;
+    width: 87.99px;
+    height: 22.55px;
+  }
+  .c1 {
+    top: 257.32px;
+    left: 108.05px;
+    width: 197.28px;
+    height: 234.69px;
+  }
+  .c1-icon {
+  
+    top: 0;
+    left: 1;
+    width: 170.27px;
+    height: 150.48px;
+    
+  }
+  .chicken-joy,
+  .menu-list {
+    position: absolute;
+    display: inline-block;
+    color: var(--color-white);
+    text-align: left;
+  }
+  .menu-list {
+    top: 74px;
+    left: 297px;
+    font-size: 48px;
+    letter-spacing: 0.5em;
+    font-family: var(--font-chewy);
+    width: 426px;
+    height: 51px;
+  }
+  .chicken-joy {
+    top: 196px;
+    left: 338px;
+    font-size: 32px;
+    letter-spacing: 0.2em;
+    width: 304px;
+    height: 45px;
+  }
+  
+  
+
+  }
+
+
+
+
+
+@media (max-width: 720px){
+  .transparent-header{
+    width: 100%;  
+  }
+
+  .header-title {
+    font-size: 15px;
+  }
+
+  .desktop {
+    font-size: 18px;
+    height: 1300px;
+  }
+
+  .layer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .homefood {
+    top: 123.66px;
+    left: 100px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .home-circle {
+    position: absolute;
+    top: 20.91px;
+    left: 86.5px;
+    border-radius: 50%;
+    background-color: var(--color-firebrick);
+    filter: blur(4px);
+    width: 232.82px;
+    height: 238.18px;
+  }
+
+  .sodasplash-icon {
+    top: 150px;
+    left: 491px;
+    width: 308px;
+    height: 529px;
+    object-fit: cover;
+  }
+  .fries-side-icon{
+    top: 100px;
+    left: -80px;
+    width: 164.97px;
+    height: 138.57px;
+  }
+
+  
+  .sodasplash-icon {
+    top: 310px;
+    left: 600px;
+    width: 164.97px;
+    height: 138.57px;
+  }
+
+  .chicken-side-icon{
+    top: 270px;
+    left: 20px;
+    width: 164.97px;
+    height: 138.57px;
+  }
+
+  .chiliside-icon
+   {
+    top: 20px;
+    left: 550px;
+    width: 340.86px;
+    height: 329.1px;
+  }
+  .ice-side-icon
+  {
+    top: 20px;
+    left: 600px;
+    width: 340.86px;
+    height: 329.1px;
+  }
+
+  .cokesplash-icon,
+.pilefries-1-icon {
+  position: absolute;
+  top: 2.04px;
+  left: 239.24px;
+  width: 194.76px;
+  height: 176.47px;
+  object-fit: cover;
+}
+.cokesplash-icon {
+  top: 42.84px;
+  left: 5.44px;
+  width: 130.75px;
+  height: 165.56px;
+  object-fit: contain;
+}
+.cokefloat-icon,
+.tuna-peach-icon {
+  position: absolute;
+  top: 57.12px;
+  left: 239.24px;
+  width: 148.29px;
+  height: 114.75px;
+  object-fit: cover;
+}
+.cokefloat-icon {
+  left: 34.6px;
+  width: 168.06px;
+  height: 128.52px;
+}
+.burg-fri-co-icon,
+.icecube1-icon,
+.jabe-spag-icon {
+  position: absolute;
+  top: 92.82px;
+  left: 9.89px;
+  width: 180.42px;
+  height: 158.11px;
+  object-fit: cover;
+}
+.icecube1-icon,
+.jabe-spag-icon {
+  top: 33.15px;
+  left: 85.51px;
+  width: 341.56px;
+  height: 246.85px;
+}
+.icecube1-icon {
+  top: 55.08px;
+  left: 19.28px;
+  width: 30.33px;
+  height: 25.27px;
+  object-fit: contain;
+}
+.icecube2-icon,
+.icecube3-icon,
+.icecube4-icon {
+  position: absolute;
+  top: 15.81px;
+  left: 0;
+  width: 38.74px;
+  height: 37.51px;
+  object-fit: contain;
+}
+.icecube3-icon,
+.icecube4-icon {
+  top: 29.58px;
+  left: 42.51px;
+  width: 26.9px;
+  height: 26.8px;
+}
+.icecube4-icon {
+  top: 0;
+  left: 31.14px;
+  width: 24.73px;
+  height: 21.7px;
+}
+.homefood {
+  position: absolute;
+  top: 85px;
+  left: 143px;
+  width: 434px;
+  height: 280px;
+}
+
+.promotionframe{
+  top: 450px;
+  left: 100px;
+}
+.chicken-sidep-icon {
+  
+  top: 1px;
+  left: 1px;
+  width: 234.98px;
+  height: 206.78px;
+
+  opacity: 0.4;
+}
+.jabeappromo-icon,
+.mixnmatchpromo-icon {
+  top: 0;
+  left: 20px;
+  width: 125.41px;
+}
+.jabeappromo-icon {
+  
+  position: absolute;
+  left: 176.29px;
+  height: 174px;
+}
+.mixnmatchpromo-icon {
+  left: 0;
+}
+.christmaspromo-icon,
+.mixnmatchpromo-icon,
+.promos {
+  position: center;
+  height: 174px;
+}
+.christmaspromo-icon {
+  top: 0;
+  left: 352.59px;
+  border-radius: var(--br-xl);
+  width: 125.41px;
+  object-fit: cover;
+}
+.promos {
+  top: 5px;
+  left: 1px;
+  width: 478px;
+}
+
+.promos img {
+  width: 150px;
+  top: 70px;
+  /* Adjust the width as needed */
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.promos img:hover {
+  transform: scale(1.1);
+  /* Adjust the scale factor as needed */
+}
+
+.fries-sidep-icon {
+  position: absolute;
+  top: 130px;
+  left: -98px;
+  width: 254.2px;
+  height: 280.64px;
+  object-fit: contain;
+  opacity: 0.4;
+}
+.sodasplashp-icon {
+  top: 135px;
+  left: 302px;
+  width: 307px;
+  height: 341px;
+  object-fit: cover;
+}
+
+
+.chicken-sidep1-icon,
+.ice-sidep-icon {
+  top: 1.58px;
+  left: 196.2px;
+  width: 130.56px;
+  height: 164px;
+  opacity: 0.4;
+}
+.ice-sidep-icon {
+  top: 43px;
+  left: 309.53px;
+  width: 206.23px;
+  height: 212.42px;
+}
+.promotions {
+  font-size: 32px;
+  top: 4px;
+  left: 70px;
+  letter-spacing: 0.5em;
+  display: inline-block;
+  width: 424px;
+  height: 42px;
+}
+
+.chicken-sidep-icon,
+.fries-sidep-icon {
+  position: absolute;
+  top: -39.63px;
+  left: -102px;
+  width: 263.14px;
+  height: 286.22px;
+  object-fit: contain;
+  opacity: 0.4;
+}
+.fries-sidep-icon {
+  top: 200px;
+  left: -70px;
+  width: 284.66px;
+  height: 388.44px;
+}
+
+.menuframe{
+  top: 800px;
+  left: 0px;
+}
+.cjoyrectangle {
+  position: absolute;
+  top: 297.19px;
+  left: -10px;
+  background-color: #e7bb79;
+  width: 745px;
+  height: 175px;
+}
+.c3-box {
+  position: absolute;
+  top: 19.58px;
+  left: 11.22px;
+  background-color: var(--color-gainsboro);
+  border: 10px solid var(--color-linen);
+  box-sizing: border-box;
+  width: 149.39px;
+  height: 192px;
+}
+.c3-text {
+  position: absolute;
+  top: 139.67px;
+  left: 31.57px;
+  letter-spacing: 0.2em;
+  font-weight: 600;
+  display: inline-block;
+  width: 108.17px;
+  height: 34.4px;
+}
+.c3-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 155.27px;
+  height: 144.48px;
+  object-fit: cover;
+}
+.pricebox3 {
+  position: absolute;
+  top: 177.95px;
+  left: 41.51px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-firebrick);
+  border: 3px solid var(--color-black);
+  box-sizing: border-box;
+  width: 88.29px;
+  height: 46.59px;
+}
+.price3 {
+  position: absolute;
+  top: 190.98px;
+  left: 44.75px;
+  letter-spacing: 0.2em;
+  font-weight: 600;
+  color: var(--color-white);
+  display: inline-block;
+  width: 82.24px;
+  height: 21.28px;
+  font-size: 12px;
+}
+.c2-box,
+.c3 {
+  position: absolute;
+  top: 228px;
+  left: 505.57px;
+  width: 155.27px;
+  height: 221.54px;
+}
+.c2-box {
+  top: 19.58px;
+  left: 2.94px;
+  background-color: var(--color-gainsboro);
+  border: 10px solid var(--color-linen);
+  box-sizing: border-box;
+  width: 149.39px;
+  height: 192px;
+}
+.c2-text {
+  position: absolute;
+  top: 139.67px;
+  left: 23.81px;
+  letter-spacing: 0.2em;
+  font-weight: 600;
+  display: inline-block;
+  width: 108.17px;
+  height: 34.4px;
+}
+.pricebox2 {
+  position: absolute;
+  top: 177.95px;
+  left: 33.75px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-firebrick);
+  border: 3px solid var(--color-black);
+  box-sizing: border-box;
+  width: 88.29px;
+  height: 46.59px;
+}
+.price2 {
+  position: absolute;
+  top: 190.98px;
+  left: 44.6px;
+  letter-spacing: 0.2em;
+  font-weight: 600;
+  color: var(--color-white);
+  display: inline-block;
+  width: 66.16px;
+  height: 21.28px;
+  font-size: 12px;
+}
+.c1-box,
+.c2 {
+  position: absolute;
+  top: 228px;
+  left: 285.6px;
+  width: 155.27px;
+  height: 221.54px;
+}
+.c1-box {
+  top: 19.58px;
+  left: 9.15px;
+  background-color: var(--color-gainsboro);
+  border: 10px solid var(--color-white);
+  box-sizing: border-box;
+  width: 149.39px;
+  height: 192px;
+}
+.c1-text {
+  position: absolute;
+  top: 139.67px;
+  left: 30.02px;
+  letter-spacing: 0.2em;
+  font-weight: 600;
+  display: inline-block;
+  width: 108.17px;
+  height: 34.4px;
+}
+.pricebox1 {
+  top: 177.95px;
+  left: 39.96px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-firebrick);
+  border: 3px solid var(--color-black);
+  box-sizing: border-box;
+  width: 88.29px;
+  height: 46.59px;
+}
+.c1,
+.price1,
+.pricebox1 {
+  position: absolute;
+}
+.price1 {
+  top: 190.98px;
+  left: 49.4px;
+  letter-spacing: 0.2em;
+  font-weight: 600;
+  color: var(--color-white);
+  display: inline-block;
+  width: 69.25px;
+  height: 21.28px;
+  font-size: 12px;
+}
+.c1 {
+  top: 228px;
+  left: 62.53px;
+  width: 155.27px;
+  height: 221.54px;
+}
+
+.c1-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 155.27px;
+  height: 144.48px;
+  object-fit: cover;
+}
+.chicken-joy,
+.menu-list {
+  position: absolute;
+  display: inline-block;
+  color: var(--color-white);
+  text-align: left;
+}
+.menu-list {
+  top: 43px;
+  left: 264px;
+  font-size: 30px;
+  letter-spacing: 0.5em;
+  font-family: var(--font-chewy);
+  width: 277px;
+  height: 51px;
+}
+.chicken-joy {
+  top: 158px;
+  left: 249px;
+  font-size: 24px;
+  letter-spacing: 0.2em;
+  width: 334px;
+  height: 42px;
+}
+
+
+}
